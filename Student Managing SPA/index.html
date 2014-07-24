@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Student Managing SPA</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Student Managing System</h1>
+        <div id="students-container"></div>
+        <div id="name-input-div">
+            <label for="tb-name">Name: </label>
+            <input id="tb-name" name="tb-name" type="text" />
+        </div>
+        <div id="grade-input-div">
+            <label for="tb-grade">Grade: </label>
+            <input id="tb-grade" name="tb-grade" type="number" min='1' max='12' />
+        </div>
+        <button id='btn-add-student'>Add new</button>
+        <div id="id-input-div">
+            <label for="tb-id">ID: </label>
+            <input id="tb-id" name="tb-id" type="number" min='1' max='12' />
+        </div>
+        <button id='btn-del-student'>Delete</button>
+        <div class="messages">
+            <strong class="message success">
+            </strong>
+            <strong class="message error">
+            </strong>
+        </div>
+    </div>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

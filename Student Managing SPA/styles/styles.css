@@ -1,0 +1,129 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 100%;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #7db9e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    copy;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 3%;
+}
+
+#name-input-div, #grade-input-div, #id-input-div {
+    font-size: 24px;
+    color: white;
+    margin-left: 18%;
+    margin-bottom: 1%;
+}
+
+#id-input-div {
+    margin-top: 1%;
+    width: 18%;
+}
+
+input {
+    border: 1px solid #CCC;
+    color: #888;
+    height: 20px;
+    line-height: 15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 20%;
+    font-size: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+#tb-grade {
+    width: 4%;
+}
+
+#btn-add-student, #btn-del-student {
+    background: #222 url(overlay.png) repeat-x;
+    margin-left: 18%;
+    margin-bottom: 1%;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    width: 200px;
+    height: 42px;
+    background-color: #9ba9f7;
+    border-radius: 15px;
+}
+
+#students-container {
+    float: right;
+    margin-right: 24%;
+    overflow:auto;
+    border: 1px solid #CCC;
+    color: #222;
+    padding: 5px 0px 5px 5px;
+    width: 25%;
+    height: 200px;
+    font-size: 20px;
+    background: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.students-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+.students-list li {
+    padding: 2px;
+}
+
+.students-list li:hover {
+    background: #ccc;
+}
+
+.selected {
+    background: #7db9e8;
+}
+
+.messages {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+}
